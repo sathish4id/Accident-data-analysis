@@ -3,12 +3,12 @@ import pickle
 import numpy as np
 
 
-def load_model():
+def load_m():
     with open('saved_steps.pkl', 'rb') as file:
         data = pickle.load(file)
     return data
 
-data = load_model()
+data = load_m()
 
 model_loaded = data["model"]
 le_Light_Conditions = data["le_Light_Conditions"]
