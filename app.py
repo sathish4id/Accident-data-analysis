@@ -30,8 +30,8 @@ def show_predict_page():
 
     Road_Surface_Conditions = (
         "Dry",
-        "Frost or snow",
-        "Wet or damp",
+        "Frost_or_Snow",
+        "Wet_or_damp",
     )
 
     Road_Type = (
