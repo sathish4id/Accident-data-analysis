@@ -19,9 +19,9 @@ le_Weather_Conditions = data["le_Weather_Conditions"]
 le_Vehicle_Type = data["le_Vehicle_Type"]
 
 def show_predict_page():
-    st.title("Accident Severity Prediction(Fatal or Slight)")
+    st.title("Accident Severity Prediction")
 
-    st.write("""### We need some information to predict the severity""")
+    st.write("""### please select from the below drop-down to predict the severity""")
 
     Light_Conditions = (
         "Daylight",
