@@ -86,3 +86,5 @@ def show_predict_page():
 
         pred = model_loaded.predict(X)
         st.subheader(f"The accident severity is {pred}")
+        
+show_predict_page()
